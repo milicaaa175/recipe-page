@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: Outfit, sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+.text-content {
+    padding: 2.5rem 2rem;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.text-content section {
+    margin-bottom: 2rem;
+}
+
+.text-content section:last-child {
+    margin-bottom: 0;
+}
+
+.text-content hr {
+    margin: 0 0 2rem 0;
+}
+
+h1 {
+    font-family: "Young Serif", serif;
+    font-size: 2.25rem;
+    color: hsl(24, 5%, 18%);
+    margin-bottom: 1.5rem;
+}
+
+p {
+    line-height: 150%;
+    color: hsl(30, 10%, 34%);
+}
+
+.preparation {
+    padding: 1.5rem;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 0.75rem;
+}
+
+.preparation h3 {
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: hsl(332, 51%, 32%);
+    margin-bottom: 1rem;
+}
+
+ul {
+    padding-left: 1rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    color: hsl(30, 10%, 34%);
+    line-height: 150%;
+}
+
+li:last-child {
+    margin-bottom: 0;
+}
+
+span {
+    font-weight: 700;
+}
+
+.preparation li::marker {
+    color: hsl(332, 51%, 32%);
+    font-size: 0.80rem;
+}
+
+.preparation li {
+    width: 14rem;
+}
+
+h2 {
+    font-family: "Young Serif", serif;
+    color: hsl(14, 45%, 36%);
+    font-size: 1.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.ingredients li::marker {
+    color: hsl(14, 45%, 36%);
+    font-size: 0.80rem;
+}
+
+.ingredients li, .instructions li {
+    width: 17rem;
+}
+
+.instructions li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+ol {
+    padding-left: 1.5rem;
+}
+
+table {
+    width: 19.5rem;
+    margin-top: 1.5rem;
+    color: hsl(30, 10%, 34%);
+    line-height: 150%;
+    border-spacing: 1.25px;
+}
+
+tr {
+    border-bottom: solid hsl(30, 18%, 87%) 2px;
+}
+
+tr:last-child {
+    border-bottom: none;
+}
+
+th {
+    text-align: start;
+    padding: 0.75rem 0 0.75rem 1.875rem;
+}
+
+td {
+    padding: 0.75rem 1.875rem 0.75rem 0;
+}
+
+th:first-child, td:first-child {
+    padding-top: 0;
+}
+
+th:last-child, td:last-child {
+    padding-bottom: 0;
+}
+
+.kcal {
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+.attribution {
+    text-align: center;
+    color: hsl(30, 10%, 34%);
+}
+
+.attribution a {
+    color: hsl(24, 5%, 18%);
+}
