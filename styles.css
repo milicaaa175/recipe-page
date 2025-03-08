@@ -97,7 +97,7 @@ p {
     border-radius: 0.75rem;
 }
 
-.preparation h3 {
+.preparation h2 {
     font-weight: 600;
     font-size: 1.25rem;
     color: hsl(332, 51%, 32%);
@@ -110,7 +110,7 @@ ul {
 
 li {
     margin-bottom: 0.5rem;
-    padding-left: 0.5rem;
+    padding-left: 1rem;
     color: hsl(30, 10%, 34%);
     line-height: 150%;
 }
@@ -158,7 +158,7 @@ ol {
 }
 
 table {
-    width: 19.5rem;
+    width: 100%;
     margin-top: 1.5rem;
     color: hsl(30, 10%, 34%);
     line-height: 150%;
@@ -166,7 +166,7 @@ table {
 }
 
 tr {
-    border-bottom: solid hsl(30, 18%, 87%) 2px;
+    border-bottom: solid hsl(30, 18%, 87%) 1px;
 }
 
 tr:last-child {
@@ -207,7 +207,7 @@ th:last-child, td:last-child {
 @media (min-width: 768px) {
 
     body {
-        background-color: hsl(330, 100%, 98%);
+        background-color: hsl(30, 54%, 90%);
     }
 
     article {
@@ -235,10 +235,6 @@ th:last-child, td:last-child {
 
     .ingredients li, .instructions li {
         width: auto;
-    }
-
-    table {
-        width: 33.5rem;
     }
 }
 
