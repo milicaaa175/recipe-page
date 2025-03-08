@@ -132,7 +132,7 @@ span {
     width: 14rem;
 }
 
-h2 {
+.ingredients h2, .instructions h2, .nutrition h2 {
     font-family: "Young Serif", serif;
     color: hsl(14, 45%, 36%);
     font-size: 1.75rem;
@@ -159,7 +159,7 @@ ol {
 
 table {
     width: 100%;
-    margin-top: 1.5rem;
+    margin-top: 2rem;
     color: hsl(30, 10%, 34%);
     line-height: 150%;
     border-spacing: 1.25px;
