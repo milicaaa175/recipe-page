@@ -207,7 +207,7 @@ th:last-child, td:last-child {
 @media (min-width: 768px) {
 
     body {
-        background-color: hsl(330, 100%, 98%)
+        background-color: hsl(330, 100%, 98%);
     }
 
     article {
@@ -239,5 +239,12 @@ th:last-child, td:last-child {
 
     table {
         width: 33.5rem;
+    }
+}
+
+@media (min-width: 1440px) {
+
+    article {
+        margin: 8rem 22rem;
     }
 }
