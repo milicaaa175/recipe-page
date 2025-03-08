@@ -37,11 +37,13 @@ body {
 blockquote, q {
 	quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -52,13 +54,17 @@ body {
     font-family: Outfit, sans-serif;
 }
 
+article {
+    background-color: hsl(0, 0%, 100%);
+}
+
 img {
     width: 100%;
+    display: block;
 }
 
 .text-content {
     padding: 2.5rem 2rem;
-    background-color: hsl(0, 0%, 100%);
 }
 
 .text-content section {
@@ -196,4 +202,42 @@ th:last-child, td:last-child {
 
 .attribution a {
     color: hsl(24, 5%, 18%);
+}
+
+@media (min-width: 768px) {
+
+    body {
+        background-color: hsl(330, 100%, 98%)
+    }
+
+    article {
+        margin: 8rem 4rem;
+        padding: 2.5rem;
+        border-radius: 1.5rem;
+    }
+
+    img {
+        border-radius: 0.75rem;
+    }
+    
+    .text-content {
+        padding: 0;
+        padding-top: 2.5rem; 
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .preparation li {
+        width: auto;
+    }
+
+    .ingredients li, .instructions li {
+        width: auto;
+    }
+
+    table {
+        width: 33.5rem;
+    }
 }
